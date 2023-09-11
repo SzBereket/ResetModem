@@ -11,10 +11,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.alert import Alert
 import time
 
-# Modem yönetim arayüzü URL'si ve kullanıcı bilgilerini burada ayarlayın
-modem_url = "http://192.168.1.1"  # Modem yönetim arayüzünün URL'sini ayarlayın
-username = "admin"  # Modem yönetim kullanıcı adınızı ayarlayın
-password = "admin"  # Modem yönetim şifrenizi ayarlayın
+# U NEED TO DOWNLOAD CHROMEDRIVER
+
+modem_url = "http://192.168.1.1"  
+username = "admin" 
+password = "password" 
 
 # Chrome WebDriver'ı başlatın
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
